@@ -46,27 +46,34 @@ Engineered a dimensional Star Schema with dedicated Dimension Tables linked via 
 
 ### 1. Staffing Overview
 <img width="770" height="434" alt="02_Overview" src="https://github.com/user-attachments/assets/c61ffcbe-4cd2-4aee-ac0d-bfca7b7900a6" />
+
 *Macro view of total recorded movements, appointments, departures, and net movement balance across fiscal years.*
 
 ### 2. Appointments & Recruitment Patterns
 <img width="769" height="434" alt="03_Appointments" src="https://github.com/user-attachments/assets/2882c0f5-737e-4c49-a02e-ddab7dc8c387" />
+
 *Deep dive into temporary (Term) vs. permanent (Indeterminate) appointments and term-to-indeterminate conversion efficiency.*
 
 ### 3. Departures & Risk Analysis
 <img width="771" height="432" alt="04_Departures" src="https://github.com/user-attachments/assets/6b2ef3cc-f26c-4490-896e-d52e1025c60a" />
+
 *Detailed breakdown of departure causes, isolating retirement spikes and lateral movements across top departments.*
 
 ---
 
-## 📌 Key Business Insights
+## Key Business Insights
+<img width="769" height="433" alt="05_Summary" src="https://github.com/user-attachments/assets/7322de7a-4924-4c51-ba1b-23064d1da34b" />
 
-* **Hiring Strategy & Conversions:** Evaluates how departments leverage term appointments as a talent pipeline before converting staff into permanent (indeterminate) roles.
-* **Retention & Departure Drivers:** Identifies departments where retirements and lateral transfers account for the majority of exits, helping HR leadership plan for succession and knowledge transfer.
-* **Departmental Focus:** Top 10 high-volume departments (e.g., Statistics Canada, Transport Canada) are benchmarked to highlight operational demand.
+*Executive takeaways, business implications across staffing patterns, and dataset scope notes.*
+
+**Staffing Trends:** Recorded appointments consistently exceeded departures, though activity levels varied significantly across fiscal years. *Implication:* Helps HR leadership monitor overall transactional volume to optimize workforce planning and resource allocation.
+* **Appointment Patterns:** New Indeterminate (permanent) appointments grew in frequency over time, though distribution varies by entity. *Implication:* Requires evaluating department-level hiring models to support long-term workforce stability[cite: 7].
+* **Departmental Conversions:** Term to Indeterminate conversions are highly concentrated in specific departments. *Implication:* Provides visibility into how effectively temporary positions serve as talent pipelines and retention drivers[cite: 7].
+* **Departure Drivers:** Retirement and Lateral/Downward movements account for over 50% of exits in key departments analyzed. *Implication:* Highlights critical risk areas to prepare for knowledge transfer, replacement costs, and potential staffing gaps[cite: 7].
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Data Cleansing & Transformation (ETL):** Power Query (M Language)
 * **Data Modeling:** Dimensional Modeling (Star Schema design, FK indexing, append logic)
