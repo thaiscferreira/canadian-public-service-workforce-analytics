@@ -66,10 +66,10 @@ Engineered a dimensional Star Schema with dedicated Dimension Tables linked via 
 
 *Executive takeaways, business implications across staffing patterns, and dataset scope notes.*
 
-**Staffing Trends:** Recorded appointments consistently exceeded departures, though activity levels varied significantly across fiscal years. *Implication:* Helps HR leadership monitor overall transactional volume to optimize workforce planning and resource allocation.
-* **Appointment Patterns:** New Indeterminate (permanent) appointments grew in frequency over time, though distribution varies by entity. *Implication:* Requires evaluating department-level hiring models to support long-term workforce stability[cite: 7].
-* **Departmental Conversions:** Term to Indeterminate conversions are highly concentrated in specific departments. *Implication:* Provides visibility into how effectively temporary positions serve as talent pipelines and retention drivers[cite: 7].
-* **Departure Drivers:** Retirement and Lateral/Downward movements account for over 50% of exits in key departments analyzed. *Implication:* Highlights critical risk areas to prepare for knowledge transfer, replacement costs, and potential staffing gaps[cite: 7].
+* **Staffing Trends:** Recorded appointments consistently exceeded departures, though activity levels varied significantly across fiscal years. *Implication:* Helps HR leadership monitor overall transactional volume to optimize workforce planning and resource allocation.
+* **Appointment Patterns:** New Indeterminate (permanent) appointments grew in frequency over time, though distribution varies by entity. *Implication:* Requires evaluating department-level hiring models to support long-term workforce stability.
+* **Departmental Conversions:** Term to Indeterminate conversions are highly concentrated in specific departments. *Implication:* Provides visibility into how effectively temporary positions serve as talent pipelines and retention drivers.
+* **Departure Drivers:** Retirement and Lateral/Downward movements account for over 50% of exits in key departments analyzed. *Implication:* Highlights critical risk areas to prepare for knowledge transfer, replacement costs, and potential staffing gaps.
 
 ---
 
